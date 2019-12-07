@@ -1,0 +1,17 @@
+# the port of this server
+server:
+  port: 4321
+
+# wechat setting
+wechat:
+  app:
+    id: wx743f15e435d64f39
+    secret: ff7976ac74aaa7159163693c1e8a947b
+    token:
+      url: https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=${wechat.app.id}&secret=${wechat.app.secret}
+
+
+# magix
+magix:
+  mr3306:
+    openId: o_9S5s1naYQCJTCQbi3llbEaOTuE
